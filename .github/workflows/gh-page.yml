@@ -11,7 +11,7 @@ jobs:
         run: |
           mkdir build 
           cd build
-          npx insomnia-documenter --config /github/workspace//apiDocs/Insomnia.json
+          npx insomnia-documenter --config /github/workspace/apiDocs/Insomnia.json
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.3
